@@ -1,8 +1,20 @@
 <template>
   <v-layout>
-    <v-flex class="text-center">
+    <v-flex class="flex-row justify-space-around">
       <Clock />
       <SubwayStatusBoard />
+      <div>
+        天気
+      </div>
+      <div>
+        ニュース
+      </div>
+      <div>
+        渋滞
+      </div>
+      <div>
+        地震速報
+      </div>
     </v-flex>
   </v-layout>
 </template>
