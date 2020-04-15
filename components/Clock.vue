@@ -1,9 +1,9 @@
 <template>
   <div class="Widget Clock">
-    <div id="Time">
+    <div id="Time" class="display-4">
       {{ $moment(time).format('HH:mm:ss') }}
     </div>
-    <div id="Date">
+    <div id="Date" class="display-2">
       {{ $moment(time).format('YYYY/MM/DD (ddd)') }}
     </div>
   </div>
