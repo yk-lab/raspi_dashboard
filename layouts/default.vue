@@ -1,7 +1,7 @@
 <template lang="pug">
   v-app(dark)
     v-content
-      v-container(fluid)
+      v-container.py-0(fluid)
         nuxt
 </template>
 

@@ -8,16 +8,15 @@
 #WeatherWidget {
   overflow: hidden;
 }
-.fe_label {
-  width: 31px;
-}
-.fe_temp_bar {
-  margin: 18px 5.5px 0;
+#WeatherWidget .fe_container {
+  min-width: 320px;
 }
 </style>
 
 <script lang="ts">
 import Vue from 'vue'
+// TODO 後々対応する
+// @ts-ignore
 import VueWeatherWidget from 'vue-weather-widget'
 import 'vue-weather-widget/dist/css/vue-weather-widget.css'
 

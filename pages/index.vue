@@ -1,6 +1,6 @@
 <template lang="pug">
-  v-row(no-gutters)
-    v-col(cols="5")
+  v-row
+    v-col.pa-0(cols="5")
       Clock.ma-2
       Weather.ma-2
     v-col(cols="6" offset="1")
