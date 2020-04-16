@@ -55,9 +55,7 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
-  env: {
-    subwayStatusResourceId: process.env.SUBWAY_STATUS_RESOURCE_ID
-  },
+  env: {},
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module

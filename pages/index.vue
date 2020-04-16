@@ -1,33 +1,26 @@
-<template>
-  <v-layout>
-    <v-flex class="flex-row justify-space-around">
-      <Clock />
-      <SubwayStatusBoard />
-      <div>
-        天気
-      </div>
-      <div>
-        ニュース
-      </div>
-      <div>
-        渋滞
-      </div>
-      <div>
-        地震速報
-      </div>
-    </v-flex>
-  </v-layout>
+<template lang="pug">
+  v-row(no-gutters)
+    v-col(cols="5")
+      Clock.ma-2
+      Weather.ma-2
+    v-col(cols="6" offset="1")
+      SubwayStatusBoard
+      div ニュース
+      div 渋滞
+      div 地震速報
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Clock from '~/components/Clock.vue'
 import SubwayStatusBoard from '~/components/SubwayStatusBoard.vue'
+import Weather from '~/components/Weather.vue'
 
 export default Vue.extend({
   components: {
     Clock,
-    SubwayStatusBoard
+    SubwayStatusBoard,
+    Weather
   },
   data() {
     return {
