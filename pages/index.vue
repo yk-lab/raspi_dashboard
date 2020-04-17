@@ -1,9 +1,9 @@
 <template lang="pug">
   v-row
-    v-col.pa-0(cols="5")
+    v-col.pa-0(cols="6")
       Clock.ma-2
       Weather.ma-2
-    v-col(cols="6" offset="1")
+    v-col(cols="6")
       SubwayStatusBoard
       div ニュース
       div 渋滞
