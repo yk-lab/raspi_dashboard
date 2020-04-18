@@ -2964,6 +2964,11 @@ compression@^1.7.4:
     safe-buffer "5.1.2"
     vary "~1.1.2"
 
+comutils@^1.1.9:
+  version "1.1.19"
+  resolved "https://registry.yarnpkg.com/comutils/-/comutils-1.1.19.tgz#3e07f306abf48e83726511713a72b20565034443"
+  integrity sha512-JxXB67juILiwhdLwOsYyjUqwWEhHdObI0EClOPk+JDtEuTbac59s0pxGpfCBnNNQ5JommifmcMGneW/4Cg7YWw==
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -9951,6 +9956,13 @@ vue-router@^3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.6.tgz#45f5a3a3843e31702c061dd829393554e4328f89"
   integrity sha512-GYhn2ynaZlysZMkFE5oCHRUTqE8BWs/a9YbKpNLi0i7xD6KG1EzDqpHQmv1F5gXjr8kL5iIVS8EOtRaVUEXTqA==
+
+vue-seamless-scroll@^1.1.21:
+  version "1.1.21"
+  resolved "https://registry.yarnpkg.com/vue-seamless-scroll/-/vue-seamless-scroll-1.1.21.tgz#c30a3906780ae070be8280864178b0c123b14260"
+  integrity sha512-O6n1Ly4Jw8sKaDuibLUX/QEjXRrMX2uHoqqIBBEM/Nyn8pQZpn2VdJDObBtnAS9F0cD8ExDq0mbZgZX6MXzXqQ==
+  dependencies:
+    comutils "^1.1.9"
 
 vue-server-renderer@^2.6.11:
   version "2.6.11"

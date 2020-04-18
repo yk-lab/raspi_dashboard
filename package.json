@@ -28,6 +28,7 @@
     "nuxt": "^2.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
+    "vue-seamless-scroll": "^1.1.21",
     "vue-weather-widget": "^2.4.0"
   },
   "devDependencies": {
