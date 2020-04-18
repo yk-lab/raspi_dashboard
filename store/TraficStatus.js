@@ -1,7 +1,7 @@
 // import axios from 'axios'
 
 export const state = () => ({
-  data: '将来的に地下鉄の運行情報を出す'
+  data: '地下鉄運行情報'
 })
 
 export const mutations = {
