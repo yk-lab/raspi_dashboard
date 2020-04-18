@@ -4,7 +4,7 @@
       span.display-4 {{ $moment(time).format('HH:mm') }}
       span.display-1 {{ $moment(time).format('ss') }}
     div#Date.pa-1
-      span.display-3 {{ $moment(time).format('MM/DD ddd') }}
+      span.display-2 {{ $moment(time).format('MM/DD ddd') }}
 </template>
 
 <script lang="ts">
