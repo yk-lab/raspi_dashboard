@@ -26,8 +26,6 @@
     "@nuxtjs/moment": "^1.6.0",
     "moment-timezone": "^0.5.28",
     "nuxt": "^2.0.0",
-    "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.2",
     "vue-seamless-scroll": "^1.1.21",
     "vue-weather-widget": "^2.4.0"
   },
@@ -48,6 +46,8 @@
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
     "stylelint": "^10.1.0"
   }
 }
