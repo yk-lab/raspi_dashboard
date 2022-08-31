@@ -24,7 +24,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/moment": "^1.6.0",
-    "moment-timezone": "^0.5.28",
+    "moment-timezone": "^0.5.35",
     "nuxt": "^2.0.0",
     "vue-seamless-scroll": "^1.1.21",
     "vue-weather-widget": "^2.4.0"
